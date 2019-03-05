@@ -472,7 +472,7 @@
             },
             "properties": {
                 "hardwareProfile": {
-                    "vmSize": "Standard_D1"
+                    "vmSize": "Standard_D1_v2"
                 },
                 "osProfile": {
                     "computerName": "[parameters('VMNameProd')]",
@@ -522,7 +522,7 @@
             },
             "properties": {
                 "hardwareProfile": {
-                    "vmSize": "Standard_D1"
+                    "vmSize": "Standard_D1_v2"
                 },
                 "osProfile": {
                     "computerName": "[parameters('VMNameDev')]",
